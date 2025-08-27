@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://samanehzahedi90.github.io/TMDRA.1/manifests/manifest.json",
     "label" : "[Click to edit label]"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://samanehzahedi90.github.io/TMDRA.1/manifests/manifest_json",
+    "label" : "[Click to edit label]"
   } ]
 }
