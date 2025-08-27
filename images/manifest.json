@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://samanehzahedi90.github.io/TMDRA.1/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in samanehzahedi90/TMDRA.1 project"
+        ]
+    },
+    "items": []
+}
