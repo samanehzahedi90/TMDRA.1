@@ -1,0 +1,115 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://samanehzahedi90.github.io/TMDRA.1/manifests/tmdra1",
+  "@type" : "sc:Manifest",
+  "label" : "TMDRA – Test Manifest with 5 Images",
+  "description" : "یک مانیفست ساده برای تست آپلود در Workbench با 5 تصویر",
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "© منابع: GitHub Pages",
+  "sequences" : [ {
+    "@id" : "https://example.org/sequence/normal",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "https://example.org/canvas/polina",
+      "@type" : "sc:Canvas",
+      "label" : "Polina",
+      "height" : 1307,
+      "width" : 736,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/TMDRA.1/images/polina",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          }
+        },
+        "on" : "https://example.org/canvas/polina"
+      } ]
+    }, {
+      "@id" : "https://example.org/canvas/shells",
+      "@type" : "sc:Canvas",
+      "label" : "Shells",
+      "height" : 4000,
+      "width" : 6000,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/TMDRA.1/images/Shells",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          }
+        },
+        "on" : "https://example.org/canvas/shells"
+      } ]
+    }, {
+      "@id" : "https://example.org/canvas/jelly",
+      "@type" : "sc:Canvas",
+      "label" : "Jelly",
+      "height" : 6000,
+      "width" : 4000,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/TMDRA.1/images/jelly",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          }
+        },
+        "on" : "https://example.org/canvas/jelly"
+      } ]
+    }, {
+      "@id" : "https://example.org/canvas/spencer-plouzer",
+      "@type" : "sc:Canvas",
+      "label" : "Spencer Plouzer",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/TMDRA.1/images/spencer-plouzer",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          }
+        },
+        "on" : "https://example.org/canvas/spencer-plouzer"
+      } ]
+    }, {
+      "@id" : "https://example.org/canvas/paolo-bendandi",
+      "@type" : "sc:Canvas",
+      "label" : "Paolo Bendandi",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/TMDRA.1/images/paolo-bendandi",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          }
+        },
+        "on" : "https://example.org/canvas/paolo-bendandi"
+      } ]
+    } ]
+  } ]
+}
