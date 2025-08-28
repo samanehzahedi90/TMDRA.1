@@ -33,5 +33,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://samanehzahedi90.github.io/TMDRA.1/manifests/tmdra1",
     "label" : "TMDRA – Test Manifest with 5 Images"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://samanehzahedi90.github.io/TMDRA.1/manifests/TMDRA",
+    "label" : "[Click to edit label]"
   } ]
 }
