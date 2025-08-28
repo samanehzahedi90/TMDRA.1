@@ -37,5 +37,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://samanehzahedi90.github.io/TMDRA.1/manifests/TMDRA",
     "label" : "[Click to edit label]"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://samanehzahedi90.github.io/TMDRA.1/manifests/image1",
+    "label" : "[Click to edit label]"
   } ]
 }
