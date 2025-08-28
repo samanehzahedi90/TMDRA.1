@@ -1,0 +1,153 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://samanehzahedi90.github.io/TMDRA.1/manifests/manifest1",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://1f2d9690-fa6a-4189-b51a-14278b0f8987",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a1f42421-b41e-4955-b328-2317a064d9d2",
+      "@type" : "sc:Canvas",
+      "label" : "Vienna",
+      "height" : 737,
+      "width" : 588,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://66ff8c98-4e3e-4cd2-b910-eda87d4c48e3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://samanehzahedi90.github.io/TMDRA/images/Vienna/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/TMDRA/images/Vienna",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 737,
+          "width" : 588
+        },
+        "on" : "http://a1f42421-b41e-4955-b328-2317a064d9d2"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://43d542d5-80a7-4d76-8871-50a94668cc4e",
+      "@type" : "sc:Canvas",
+      "label" : "La Mole",
+      "height" : 1307,
+      "width" : 736,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c0d1238e-f327-4b87-947f-b47e9359b265",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://samanehzahedi90.github.io/TMDRA/images/Turin/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/TMDRA/images/Turin",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1307,
+          "width" : 736
+        },
+        "on" : "http://43d542d5-80a7-4d76-8871-50a94668cc4e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7849ec44-b21f-4858-87b4-f5193be03f39",
+      "@type" : "sc:Canvas",
+      "label" : "Silver Hair",
+      "height" : 750,
+      "width" : 435,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c64082e6-55c9-4019-8acd-47aaeeb96a45",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://samanehzahedi90.github.io/TMDRA/images/Silver/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/TMDRA/images/Silver",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 750,
+          "width" : 435
+        },
+        "on" : "http://7849ec44-b21f-4858-87b4-f5193be03f39"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://6b76d237-b328-45b0-b472-db58444401fd",
+      "@type" : "sc:Canvas",
+      "label" : "Bvlagari's Ad",
+      "height" : 1200,
+      "width" : 1026,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3ea9cb80-a883-409c-a63a-c73af7533e05",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://samanehzahedi90.github.io/TMDRA/images/Vulgari/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/TMDRA/images/Vulgari",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1200,
+          "width" : 1026
+        },
+        "on" : "http://6b76d237-b328-45b0-b472-db58444401fd"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9732025a-e991-491c-9019-162452ae1b9e",
+      "@type" : "sc:Canvas",
+      "label" : "White Waves",
+      "height" : 6000,
+      "width" : 4000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://77bcdc9b-76d9-48da-a1e5-69f1af41f839",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://samanehzahedi90.github.io/TMDRA/images/sea/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://samanehzahedi90.github.io/TMDRA/images/sea",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 6000,
+          "width" : 4000
+        },
+        "on" : "http://9732025a-e991-491c-9019-162452ae1b9e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
